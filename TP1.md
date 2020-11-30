@@ -23,9 +23,9 @@ Le nombre d'atomes est pour l'instant fixé à 108 (ce nombre est un peu petit m
 - Le nombre de pas total `Nsteps`
 - La température d'équilibration `Temperature_imposed` (en K), ainsi que le nombre de pas pendant lesquels cette température est maintenue `Nequil`
 
-Au cours de cette première séance nous étudierons les effets de l'équilibration et du choix du pas de temps. Dans un premier temps, nous utiliserons les paramètres par défaut (`Timestep_fs` = 5.0, `Nsteps` = 5000, `Temperature_imposed` = 120 & `Nequil` = 1000). Pour lancer la simulation, il faut bien executer toutes les cellules du notebook ; lorsque le programme principal est lancé cela prend quelques minutes. À la fin de la simulation, tracer les différentes énergies et la température. Qu'observez-vous?
+Au cours de cette première séance nous étudierons les effets de l'équilibration et du choix du pas de temps. Dans un premier temps, nous utiliserons les paramètres par défaut (`Timestep_fs` = 5.0, `Nsteps` = 5000, `Temperature_imposed` = 120 & `Nequil` = 1000). Pour que la simulation démarre correctement, il faut bien exécuter toutes les cellules du notebook ; lorsque le programme principal est lancé cela prend quelques minutes. À la fin de la simulation, tracer les différentes énergies et la température. Qu'observez-vous?
 
-En zoomant sur les différentes courbes d'énergie à partir du 1001ème pas (c'est-\`a-dire après `Nequil`, en utilisant par exemple `total_energy[Nwrite_physical_properties_equil:]` pour l'énergie totale), vous pourrez vérifier que l'énergie totale est conservée, et donc que les fluctuations d'énergie potentielle sont exactement compensées par les fluctuations d'énergie cinétique dans l'ensemble micro-canonique (pour visualiser les trois énergies à la même échelle, vous pouvez utiliser la fonction `np.mean` de la bibliothèque `numpy`). Il est également possible d'évaluer de manière quantitative les fluctuations \`a l'aide de la variance, donnée par la fonction `np.var`. 
+En zoomant sur les différentes courbes d'énergie à partir du 1001ème pas (c'est-à-dire après `Nequil`, en utilisant par exemple `total_energy[Nwrite_physical_properties_equil:]` pour l'énergie totale), vous pourrez vérifier que l'énergie totale est conservée, et donc que les fluctuations d'énergie potentielle sont exactement compensées par les fluctuations d'énergie cinétique dans l'ensemble micro-canonique (pour visualiser les trois énergies à la même échelle, vous pouvez utiliser la fonction `np.mean` de la bibliothèque `numpy`). Il est également possible d'évaluer de manière quantitative les fluctuations à l'aide de la variance, donnée par la fonction `np.var`. 
  
 Afin d'observer l'impact de la période d'équilibration, redémarrer la simulation en fixant cette fois `Nequil` à 0 (vous pouvez mettre `Nsteps` = 1000 pour gagner du temps). Que se passe-t-il?
 
@@ -34,6 +34,7 @@ Nous allons maintenant augmenter le pas de temps de la simulation ; les nombres 
 - `Timestep_fs` = 20.0, `Nsteps` = 1250, `Temperature_imposed` = 120 & `Nequil` = 250
 - `Timestep_fs` = 50.0, `Nsteps` =  500, `Temperature_imposed` = 120 & `Nequil` = 100
 - `Timestep_fs` = 100.0, `Nsteps` = 250, `Temperature_imposed` = 120 & `Nequil` = 50
+
 Effectuer les mêmes analyses que précédemment. Qu'en déduisez-vous?
 
 
