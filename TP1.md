@@ -23,7 +23,7 @@ Le nombre d'atomes est pour l'instant fixé à 108 (ce nombre est un peu petit m
 - Le nombre de pas total `Nsteps`
 - La température d'équilibration `Temperature_imposed` (en K), ainsi que le nombre de pas pendant lesquels cette température est maintenue `Nequil`
 
-Au cours de cette première séance nous allons étudier les effets de l'équilibration et du choix du pas de temps. Pour cela, nous allons réaliser les simulations suivantes :
+Au cours de cette première séance nous allons étudier les effets de l'équilibration et du choix du pas de temps. Pour cela, nous allons tout d'abord réaliser la série de simulations suivantes :
 1. `Timestep_fs` = 5.0, `Nsteps` = 5000, `Temperature_imposed` = 120 & `Nequil` = 1000 (il s'agit des paramètres par défaut)
 2. `Timestep_fs` = 10.0, `Nsteps` = 2500, `Temperature_imposed` = 120 & `Nequil` = 500
 3. `Timestep_fs` = 100.0, `Nsteps` = 250, `Temperature_imposed` = 120 & `Nequil` = 50
