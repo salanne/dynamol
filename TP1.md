@@ -19,8 +19,11 @@ Le notebook comporte quatre parties:
 Le nombre d'atomes est pour l'instant fixé à 108 (ce nombre est un peu petit mais la faible efficacité du programme en Python ne permet pas de simuler plus d'atomes dans des temps raisonnables ; à titre d'exemple le même programme écrit en Fortran ou en C sera 100 fois plus rapide à executer). Au démarrage de la simulation, ils sont répartis sur les noeuds d'une maille cubique à faces centrées. En revanche de nombreux paramètres sont modifiables:
 - Les paramètres du potentiel de Lennard-Jones ainsi que la masse atomique des atomes, qui sont par défaut ceux de l'argon
 - La longueur de la boite cubique (et donc son volume)
-- Le pas de temps de la simulation
-- Le nombre de pas total
-- La température d'équilibration, ainsi que le nombre de pas pendant lesquels cette température est maintenue
+- Le pas de temps de la simulation `Timestep_fs` (en femtosecondes) 
+- Le nombre de pas total `Nsteps`
+- La température d'équilibration `Temperature_imposed` (en K), ainsi que le nombre de pas pendant lesquels cette température est maintenue `Nequil`
 
-Au cours de cette première séance nous allons étudier les effets de l'équilibration et du choix du pas de temps. Pour cela, nous allons réaliser les simulations suivantes:
+Au cours de cette première séance nous allons étudier les effets de l'équilibration et du choix du pas de temps. Pour cela, nous allons réaliser les simulations suivantes :
+1. `Timestep_fs` = 5.0, `Nsteps` = 5000, `Temperature_imposed` = 120 & `Nequil` = 1000 (il s'agit des paramètres par défaut)
+2. `Timestep_fs` = 10.0, `Nsteps` = 2500, `Temperature_imposed` = 120 & `Nequil` = 500
+3. `Timestep_fs` = 100.0, `Nsteps` = 250, `Temperature_imposed` = 120 & `Nequil` = 50
