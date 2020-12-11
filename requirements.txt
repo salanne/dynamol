@@ -2,3 +2,4 @@ MDAnalysis
 nglview
 numpy
 matplotlib
+numba
