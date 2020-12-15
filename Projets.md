@@ -22,7 +22,7 @@ Sélectionner un autre gaz rare. Identifier les paramètres de LJ qui reproduise
 
 À l'aide de simulations dans l'ensemble *NVT*, identifier et tester un protocole pour prédire la vitesse du son dans l'argon liquide.
 
-## Projet 7 : Le module de masse de l'argon solide
+## Projet 7 : Le bulk modulus de l'argon solide
 
 À l'aide de simulations dans l'ensemble *NVT*, calculer les propriétés mécaniques de l'argon solide.
 
