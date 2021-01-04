@@ -24,9 +24,14 @@ L'objectif est de déterminer les paramètres de Lennard-Jones adéquat pour le 
 - Construire une boite contenant une tranche de vide assez épaisse selon une des trois directions (typiquement 5 fois plus épaisse que la tranche de liquide). On note *L* la longueur de la boite dans cette direction
 - À l'aide de simulations dans l'ensemble *NVT*, se placer dans l'état liquide. La tension de surface est donnée par *\gamma = \frac{1}{2}L[P_{zz}-\frac{1}{2}(P_{xx}+P_{yy})]*
 
-## Projet 6 : La vitesse du son à l'aide de vos simulations
+## Projet 6 : Vitesse du son dans l'argon liquide
 
-À l'aide de simulations dans l'ensemble *NVT*, identifier et tester un protocole pour prédire la vitesse du son dans l'argon liquide
+À l'aide de simulations dans l'ensemble *NVT*, identifier et tester un protocole pour prédire la vitesse du son dans l'argon liquide.
+
+## Projet 6 bis : Vitesse du son dans le krypton liquide
+
+À l'aide de simulations dans l'ensemble *NVT*, identifier et tester un protocole pour prédire la vitesse du son dans le krypton liquide.
+ Attention à bien changer la masse molaire et les paramètres de Lennard-Jones du krypton.
 
 ## Projet 7 : Module d'élasticité isostatique de l'argon solide
 
