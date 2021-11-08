@@ -8,7 +8,7 @@ Vous pouvez télécharger directement le notebook sur votre ordinateur si vous a
 
 Le notebook comporte quatre parties:
 - Saisie des différents paramètres de simulation
-- Des fonctions (au nombre de 11) qui réalisent les différentes opérations utilisées au cours de la simulation
+- Des fonctions qui réalisent les différentes opérations utilisées au cours de la simulation
 - Le coeur du programme qui appelle les différentes fonctions pour calculer la trajectoire des atomes et accumuler plusieurs quantités physiques du système :
   - L'énergie totale ainsi que sa décomposition en énergie potentielle et en énergie cinétique : 
   - La température 
