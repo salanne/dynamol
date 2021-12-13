@@ -6,7 +6,7 @@ La capacité calorifique molaire à volume constant d'un composé, notée *Cv*, 
 Cv(T,P)=\frac{1}{N}\left(\frac{\partial U}{\partial T}\right)_V 
 ```
 
-Elle peut donc être calculée dans par dynamique moléculaire en faisant une série de simulations dans l'ensemble *NVT* à des températures différentes et en déterminant l'énergie moyenne du système U. Calculer la variation de *Cv=f(T)* pour l'argon à la densité *d* = 1,428. 
+Elle peut donc être calculée dans par dynamique moléculaire en faisant une série de simulations dans l'ensemble *NVT* à des températures différentes et en déterminant l'énergie moyenne du système *U*. Calculer la variation de *Cv=f(T)* pour l'argon à la densité *d* = 1,428. 
 
 Rappel: Le notebook `dynamol.ipynb` est disponible sur GitHub à l'[adresse suivante](https://github.com/salanne/dynamol). Vous pouvez télécharger directement le notebook sur votre ordinateur si vous avez installé [Jupyter](https://jupyter.org/). Sinon, il est possible de le lancer en ligne [à cette adresse](https://mybinder.org/v2/gh/salanne/dynamol/main) -- il faut généralement attendre une ou deux minutes pour le chargement. Dans ce cas le programme tournera sur un ordinateur distant. 
 
