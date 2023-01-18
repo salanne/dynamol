@@ -39,10 +39,13 @@ En utilisant l'équation de van der Waals, déterminer le terme de cohésion et 
 
 En utilisant l'équation de van der Waals, déterminer le terme de cohésion et le covolume molaire du CO2 en phase gaz. Attention à bien changer la masse molaire et les paramètres de Lennard-Jones du CO2.
 
+## Projet 11 : Tension de surface de l'argon liquide
+
+En modifiant le programme pour simuler des systèmes comportant une interface liquide-vapeur, déterminer la tension de surface de l'argon en phase liquide.
 
 ## Rappel
 
-Le notebook `dynamol.ipynb` est disponible sur GitHub à l'[adresse suivante](https://github.com/salanne/dynamol). Vous pouvez télécharger directement le notebook sur votre ordinateur si vous avez installé [Jupyter](https://jupyter.org/). Sinon, il est possible de le lancer en ligne [à cette adresse](https://mybinder.org/v2/gh/salanne/dynamol/main) -- il faut généralement attendre une ou deux minutes pour le chargement. Dans ce cas le programme tournera sur un ordinateur distant. 
+Le notebook `dynamol-googlecolab.ipynb` est disponible sur GitHub à l'[adresse suivante](https://github.com/salanne/dynamol). Vous pouvez télécharger directement le notebook sur votre ordinateur si vous avez installé [Jupyter](https://jupyter.org/). Sinon, il est possible de le lancer sur Google colab. 
 
 
 
