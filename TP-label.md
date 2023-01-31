@@ -1,6 +1,6 @@
 ## TP : Premiers pas de dynamique moléculaire
 
-Le notebook `dynamol-nvt.ipynb` est disponible sur GitHub à l'[adresse suivante](https://github.com/salanne/dynamol). GitHub est le service web d'hébergement et de développement de logiciels le plus utilisé à l'heure actuelle. Il permet notamment à plusieurs développeurs de travailler en parallèle sans avoir à se soucier des modifications réalisées par les autres, ainsi que d'avoir un suivi de version très efficace. `dynamol-nvt.ipynb` est disponible sous une licence publique générale, ce qui signifie que tout le monde est libre de l'utiliser, le modifier et de le diffuser.
+Le notebook `dynamol-googlecolab.ipynb` est disponible sur GitHub à l'[adresse suivante](https://github.com/salanne/dynamol). GitHub est le service web d'hébergement et de développement de logiciels le plus utilisé à l'heure actuelle. Il permet notamment à plusieurs développeurs de travailler en parallèle sans avoir à se soucier des modifications réalisées par les autres, ainsi que d'avoir un suivi de version très efficace. `dynamol-nvt.ipynb` est disponible sous une licence publique générale, ce qui signifie que tout le monde est libre de l'utiliser, le modifier et de le diffuser.
 
 Vous pouvez télécharger directement le notebook sur votre ordinateur si vous avez installé [Jupyter](https://jupyter.org/). Sinon, il est possible de le lancer sur Google Colab. Dans ce cas le programme tournera sur un ordinateur distant. 
 
