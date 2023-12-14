@@ -43,6 +43,11 @@ En utilisant l'équation de van der Waals, déterminer le terme de cohésion et 
 
 En modifiant le programme pour simuler des systèmes comportant une interface liquide-vapeur, déterminer la tension de surface de l'argon en phase liquide.
 
+
+## Projet 12 : Coefficients de diffusion dans l'argon liquide
+
+En modifiant le programme pour calculer des déplacements carrés moyens, déterminer le coefficient de diffusion de l'argon en phase liquide.
+
 ## Rappel
 
 Le notebook `dynamol-googlecolab.ipynb` est disponible sur GitHub à l'[adresse suivante](https://github.com/salanne/dynamol). Vous pouvez télécharger directement le notebook sur votre ordinateur si vous avez installé [Jupyter](https://jupyter.org/). Sinon, il est possible de le lancer sur Google colab. 
