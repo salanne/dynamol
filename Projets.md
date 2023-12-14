@@ -48,6 +48,10 @@ En modifiant le programme pour simuler des systèmes comportant une interface li
 
 En modifiant le programme pour calculer des déplacements carrés moyens, déterminer le coefficient de diffusion de l'argon en phase liquide.
 
+## Projet 13 : Coefficients de diffusion dans l'argon liquide (bis)
+
+En modifiant le programme pour calculer la fonction d'auto-corrélation des vitesses, déterminer le coefficient de diffusion de l'argon en phase liquide.
+
 ## Rappel
 
 Le notebook `dynamol-googlecolab.ipynb` est disponible sur GitHub à l'[adresse suivante](https://github.com/salanne/dynamol). Vous pouvez télécharger directement le notebook sur votre ordinateur si vous avez installé [Jupyter](https://jupyter.org/). Sinon, il est possible de le lancer sur Google colab. 
